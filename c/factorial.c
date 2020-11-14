@@ -18,6 +18,8 @@ void main()
 // factorail function for full calculation
 int factorial(int n)
 {
-    n = n * 5;
-    return n;
+    if (n > 0)
+    {
+        return n * factorial(n - 1);
+    }
 }
