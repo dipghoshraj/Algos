@@ -7,7 +7,7 @@ void main()
 
     printf("hello world !!!\n");
     printf("enter the string \n");
-    fgets(str);
+    fgets(str, 100, stdin);
 
     printf("the string is %s \n", str);
 }
