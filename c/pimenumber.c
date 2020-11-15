@@ -29,7 +29,7 @@ bool isPrime(int n)
         printf("five divied");
         return false;
     }
-    if (lastdigit % 2 == 0)
+    if (n % 2 == 0)
     {
         printf("even number");
         return false;
