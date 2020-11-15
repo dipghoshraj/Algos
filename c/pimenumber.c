@@ -25,16 +25,28 @@ bool isPrime(int n)
 {
     int lastdigit = n / 10;
     if (lastdigit == 5)
+    {
+        printf("five divied");
         return false;
+    }
     if (lastdigit % 2 == 0)
+    {
+        printf("even number");
         return false;
+    }
 
     else
     {
         if (n % 3 != 0 || n % 7 != 0 || n % 9 != 0)
+        {
+            printf("odd number");
             return true;
+        }
         else
+        {
+            printf("odd non prime number");
             return false;
+        }
     }
 
     return false;
