@@ -25,15 +25,15 @@ bool isPrime(int n)
     int lastdigit = n / 10;
     if (lastdigit == 5)
         return false;
-    if (lastdigit % 2 != 0)
+    if (lastdigit % 2 == 0)
         return false;
 
     else
     {
         if (n % 3 != 0 || n % 7 != 0 || n % 9 != 0)
-            return false;
-        else
             return true;
+        else
+            return false;
     }
 
     return false;
