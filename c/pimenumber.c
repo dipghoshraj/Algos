@@ -16,7 +16,8 @@ void main()
         if (n == 1 || n == 1 || n == 3 || n == 5 || n == 7)
             pime = true;
     }
-    pime = isPrime(n);
+    else
+        pime = isPrime(n);
     printf("%d \n", pime);
 }
 
