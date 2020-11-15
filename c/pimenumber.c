@@ -7,9 +7,16 @@ bool isPrime(int n);
 void main()
 {
     int n = 3;
-    printf("hello world !!");
+    bool pime = false;
+    printf("hello world  put your number here!!");
+    scanf("%d", &n);
 
-    bool pime = isPrime(n);
+    if (n < 10)
+    {
+        if (n == 1 || n == 1 || n == 3 || n == 5 || n == 7)
+            pime = true;
+    }
+    pime = isPrime(n);
     printf("%d \n", pime);
 }
 
