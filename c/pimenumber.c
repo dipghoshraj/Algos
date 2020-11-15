@@ -30,7 +30,7 @@ bool isPrime(int n)
 
     else
     {
-        if (lastdigit % 3 != 0 || lastdigit % 7 != 0 || lastdigit % 9 != 0)
+        if (n % 3 != 0 || n % 7 != 0 || n % 9 != 0)
             return false;
         else
             return true;
