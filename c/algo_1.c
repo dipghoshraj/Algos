@@ -16,14 +16,14 @@ void main()
     {
         if (i >= 2)
         {
-            int current_value = p_array[i - 2] + p_array[i - 1];
+            long current_value = p_array[i - 2] + p_array[i - 1];
             p_array[i] = current_value;
-            printf("sequenc value: %d\n", current_value);
+            printf("iteration number%d, sequenc value: %d\n", i, current_value);
         }
         else
         {
             p_array[i] = 1;
-            printf("sequenc value: %d\n", 1);
+            printf("iteration number%d, sequenc value: %d\n", i, 1);
         }
         // p_array[i] = i + 1;
     }
