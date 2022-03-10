@@ -8,7 +8,7 @@
 * add index with (index+1)
 * interate this function for 15 times
 
-*** Algorithm is n = counter + (counter +1) ***
+*** Algorithm is n = index_value(n-1) + index_value(n-2) ***
 '''
 
 
